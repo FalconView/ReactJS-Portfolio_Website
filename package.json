@@ -1,0 +1,23 @@
+{
+  "name": "reactjs-portfolio_website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FalconView/ReactJS-Portfolio_Website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FalconView/ReactJS-Portfolio_Website/issues"
+  },
+  "homepage": "https://github.com/FalconView/ReactJS-Portfolio_Website#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}

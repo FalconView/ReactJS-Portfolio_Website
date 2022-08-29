@@ -3,24 +3,28 @@ import "./home.css";
 import Me from "../../assests/avatar-1.svg";
 import HeaderSocials from "./HeaderSocials";
 import ScrollDown from "./ScrollDown";
+import Shapes from "./Shapes";
 
 const Home = () => {
-  return;
-  <section className="home container" id="home">
-    <div className="intro">
-      <img src={Me} alt="" className="home__img" />
-      <h1 className="home__name"></h1>
-      <span className="home__education">I'm a Full Stack Developer</span>
+  return (
+    <section className="home container" id="home">
+      <div className="intro">
+        <img src={Me} alt="" className="home__img" />
+        <h1 className="home__name"></h1>
+        <span className="home__education">I'm a Full Stack Developer</span>
 
-      <HeaderSocials />
+        <HeaderSocials />
 
-      <a href="#contact" className="btn">
-        Hire Me
-      </a>
+        <a href="#contact" className="btn">
+          Hire Me
+        </a>
 
-      <ScrollDown />
-    </div>
-  </section>;
+        <ScrollDown />
+      </div>
+
+      <Shapes />
+    </section>
+  );
 };
 
 export default Home;
